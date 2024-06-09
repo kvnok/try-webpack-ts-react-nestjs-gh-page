@@ -2,19 +2,17 @@
 	"compilerOptions": {
 	  "target": "ES6",
 	  "module": "commonjs",
-	  "lib": ["dom", "ES6"],
-	  "allowJs": true,
-	  "jsx": "react",
-	  "outDir": "./dist",
+	  "lib": ["ES6"],
 	  "strict": true,
 	  "moduleResolution": "node",
 	  "esModuleInterop": true,
 	  "skipLibCheck": true,
 	  "forceConsistentCasingInFileNames": true,
 	  "experimentalDecorators": true,
-	  "emitDecoratorMetadata": true
+	  "emitDecoratorMetadata": true,
+	  "outDir": "./dist"
 	},
-	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"include": ["src/**/*.ts"],
 	"exclude": ["node_modules"]
   }
   
