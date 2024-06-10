@@ -9,7 +9,8 @@
     "build:server": "tsc -p tsconfig.server.json",
     "start:server": "node dist/server/main.js",
     "build": "npm run build:client && npm run build:server",
-    "start": "concurrently \"npm run start:client\" \"npm run start:server\""
+    "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
