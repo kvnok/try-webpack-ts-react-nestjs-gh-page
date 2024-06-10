@@ -3,7 +3,8 @@ import React from 'react';
 const App: React.FC = () => {
   return (
     <div>
-      <h1>Welcome to Odin Restaurant Page</h1>
+      <h1>Just Trying out React and Nestjs</h1>
+      <p>It's a simple app to test out the integration of React and Nestjs</p>
     </div>
   );
 };
